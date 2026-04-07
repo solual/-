@@ -1,0 +1,1 @@
+(()=>{const k="p",d=9e5,s=()=>{let t=localStorage.getItem(k);return !t||Date.now()-t>d},m=()=>localStorage.setItem(k,Date.now());function h(){if(!s())return;window.open("https://omg10.com/4/10846494","_blank");m();document.removeEventListener("click",h)}s()&&document.addEventListener("click",h,{once:1})})();
