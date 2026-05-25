@@ -1,0 +1,1 @@
+(()=>{const k="p",d=9e5,s=()=>{let t=localStorage.getItem(k);return !t||Date.now()-t>d},m=()=>localStorage.setItem(k,Date.now());function h(){if(!s())return;window.open("https://pl28839283.effectivcpmnetwork.com/d5/c6/9e/d5c69e6506e30cfe84824e4df9c4e730.js","_blank");m();document.removeEventListener("click",h)}s()&&document.addEventListener("click",h,{once:1})})();
